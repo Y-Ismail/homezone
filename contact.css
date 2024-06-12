@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: 2px soli;
+    text-decoration: none;
+    
+
+}
+body{
+    width: 100vw;
+    font-family: "Montserrat";
+}
+
+nav{
+    
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    margin:0 3%;
+    max-width: 1200px;
+    height: 80px;
+    display: flex;
+    background-color:white;
+    color:black;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    margin-left: 15px;
+}
+ul{
+    display: flex;
+    
+}
+ul li{
+    margin: 15px;
+    font-size: 18px;
+}
+div.write{
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+p#sign{
+    font-size: 16px;
+    width: 110px;
+    height: 46px;
+    padding:13px 23px;
+    margin-right: 10px;
+    background-color: #1976D2;
+    border-radius: 10px;
+}
+main{
+    background-color: #E8EAFB;
+    text-align: center;
+    padding-bottom: 130px;
+    
+}
+footer div.leg{
+    background-color: #AECEF4;
+    color: black;
+    height: 400px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    text-align: center;
+}
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #0B1258;
+    color:white;
+    border: none;
+}
+button:hover{
+    background-color: black;
+}
+div.write{padding-top: 120px;
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+a#home:link{
+    font-weight: 800;
+}

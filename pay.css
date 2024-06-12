@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+body{
+    display:flex;
+    
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("images/skyscraper.jpg");
+    background-size: 60vw;
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat";
+    
+    
+}
+.left{
+    width: 50%;
+    
+    
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    background-color: #E8EAFB;
+    border-radius: 120px 0 0 0;
+    display: flex;
+    text-align: center;
+    
+    
+
+}
+.rcont{
+    /* margin: 20px 10px 20px 10px; */
+    padding:10%;
+    margin: auto;
+}
+p{
+    margin-bottom: 30px;
+}
+input{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 47px;
+    outline: none;
+    padding-left: 15px;
+}
+div.rcont span{
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+/* .frend{
+    text-align: left;
+} */
+@media only screen and (max-width:600px){
+    
+    .right{
+        width: 100%;
+        border-radius: 0;
+    }
+    .left{
+        width: 0;
+    }
+}
