@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin:0;
 
 }
 body{
-    /* width: 100%; */
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
+    font-family: 'montserrat';
    
 }
 .left{
@@ -28,6 +30,9 @@ button{
     background-color: black;
     color:white;
     display: block;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 20px;
 }
 p{
   margin: 10px 0 10px 0;  
@@ -35,4 +40,25 @@ p{
 h1{
     position: relative;
     margin-right:220px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width:500px){
+    body{
+        /* display: block; */
+        width: 100%;
+        height: 100vh;
+    }
+    .left{
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+    h1{
+    
+        margin-right:0px;
+    }
+    
 }

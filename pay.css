@@ -53,6 +53,9 @@ div.rcont span{
     text-align: left;
     margin-bottom: 10px;
 }
+h2{
+    margin-bottom: 10px;
+}
 /* .frend{
     text-align: left;
 } */
@@ -65,4 +68,5 @@ div.rcont span{
     .left{
         width: 0;
     }
+    
 }

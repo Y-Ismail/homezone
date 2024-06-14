@@ -162,7 +162,48 @@ button{
 }
 
 @media only screen and (max-width:500px){
-    .rescards{
-        flex-direction: column;
+    body{
+        width: 100%;
     }
+    .rescards{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    ul{
+        display:none;
+    }
+    .cards{
+        display: block;
+        margin: auto;
+    }
+    footer div.leg{
+        flex-direction: column;
+        align-items: center;
+    }
+    .write2{
+        display: block;
+        width: 100%;
+    }
+    #house{
+        max-width: 100%;
+        margin-right: 0px;
+        border-radius: 18px;
+    }
+    #help{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .rcard{
+        margin-right: 0px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 510px;
+        border-radius: 18px;
+        background-color: #AECEF4;
+    }
+    
 }
